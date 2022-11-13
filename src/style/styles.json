@@ -1,0 +1,42 @@
+{
+  "typography": "Lato",
+  "palette": {
+    "brand": {
+      "white": "#FFFFFF",
+      "black": "#000000"
+    },
+    "foundation": {
+      "positive": "#05944F",
+      "negative": "#E11900",
+      "warning": "#FFC043",
+      "accent": "#276EF1"
+    },
+    "content": {
+      "white": "#FFFFFF",
+      "black": "#000000",
+      "lightGrey": "#D0D2D4",
+      "grey": "#757575"
+    },
+    "background": {
+      "white": "#FFFFFF",
+      "black": "#000000",
+      "lightGrey": "#F7F7F7",
+      "grey": "#EEEEEE",
+      "darkGrey": "#D0D2D4",
+      "positive": "#E6F2ED",
+      "negative": "#FFEFED",
+      "warning": "#FFFAF0",
+      "accent": "#EFF3FE"
+    },
+    "border": {
+      "black": "#000000",
+      "darkGrey": "#757575",
+      "grey": "#D0D1D3",
+      "lightGrey": "#EEEEEE"
+    },
+    "graph": {
+      "green": "#65D172",
+      "red": "#D95642"
+    }
+  }
+}
