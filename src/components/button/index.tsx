@@ -25,6 +25,7 @@ const Container = styled.button<StyleProps>`
   min-width: ${rem(192)};
   text-transform: uppercase;
   cursor: pointer;
+  font-family: ${STYLES.typography};
 `
 
 interface ButtonProps extends StyleProps {

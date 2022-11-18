@@ -23,23 +23,16 @@ const ConnectArea = styled.div`
   display: flex;
   align-items: center;
   gap: ${rem(8)};
+  justify-content: space-between;
+  min-width: ${rem(392)};
+  max-width: ${rem(400)};
 `
 
 const Header = () => {
   return (
     <Container>
       <LogoArea>
-        <img src="assets/Tome_logo_Black.png" alt="logo" width={180} />
-        <Typography
-          style={{
-            lineHeight: '24px',
-            letterSpacing: '7px',
-            position: 'relative',
-            right: '2px',
-          }}
-        >
-          Token Home
-        </Typography>
+        <img src="assets/Tome_logo_Black.png" alt="logo" width={120} />
       </LogoArea>
       <ConnectArea>
         <Typography style={{ display: 'flex', alignItems: 'center' }}>
@@ -49,7 +42,7 @@ const Header = () => {
             height={24}
             style={{ marginRight: rem(12) }}
           />
-          Ethereum Network
+          Ethereum
         </Typography>
         <Button buttonType="grey">Connect</Button>
       </ConnectArea>

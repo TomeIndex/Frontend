@@ -8,7 +8,7 @@ const Container = styled.div`
   align-items: flex-start;
   justify-content: center;
   gap: ${rem(40)};
-  padding: ${rem(40)};
+  padding: ${rem(40)} ${rem(30)};
 `
 
 const Home = () => {
